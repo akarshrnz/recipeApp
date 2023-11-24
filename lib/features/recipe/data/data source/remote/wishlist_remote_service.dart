@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:recipe/core/utils/data_state.dart';
 import 'package:recipe/core/utils/endpoints.dart';
-import 'package:recipe/core/utils/failure.dart';
+
 import 'package:recipe/features/recipe/data/model/recipe_model/recipe_model.dart';
 
 

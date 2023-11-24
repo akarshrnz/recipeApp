@@ -20,9 +20,8 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
       title: Text(appBattitle),
       leading: leading ??
           IconButton(
-              onPressed: () {context.pop(context);
-
-           
+              onPressed: () {
+                context.pop(context);
               },
               icon: Semantics(
                   button: true,
