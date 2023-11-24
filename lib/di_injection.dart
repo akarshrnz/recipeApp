@@ -5,7 +5,7 @@ import 'package:get_it/get_it.dart';
 import 'package:recipe/features/recipe/data/data%20source/local/recipe_local_service.dart';
 import 'package:recipe/features/recipe/data/data%20source/local/wishlist_local_service.dart';
 
-import 'package:recipe/features/recipe/data/data%20source/remote/recipe_services.dart';
+import 'package:recipe/features/recipe/data/data%20source/remote/recipe_remote_services.dart';
 import 'package:recipe/features/recipe/data/data%20source/remote/wishlist_remote_service.dart';
 import 'package:recipe/features/recipe/data/repository/recipe_repo_impl.dart';
 import 'package:recipe/features/recipe/data/repository/wishlist_repo_impl.dart';

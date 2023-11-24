@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:recipe/core/utils/data_state.dart';
+import 'package:recipe/core/utils/endpoints.dart';
 import 'package:recipe/core/utils/failure.dart';
 import 'package:recipe/features/recipe/data/model/recipe_model/recipe_model.dart';
 
@@ -16,7 +17,7 @@ class RecipeServiceImpl implements RecipeService {
   Future<DataState<List<RecipeModel>>> getRecipe() async {
     try {
       
-      QuerySnapshot querySnapshot = await _firestore.collection("recipe").get();
+      QuerySnapshot querySnapshot = await _firestore.collection(Endpoints.recipeCollection).get();
            
       return DataSuccess(querySnapshot.docs
           .map(
