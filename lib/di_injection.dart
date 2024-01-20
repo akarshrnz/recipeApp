@@ -39,7 +39,7 @@ Future<void> initializeDependency() async {
   locator.registerLazySingleton<GetRecipeUsecase>(
       () => GetRecipeUsecase(locator.call()));
 
-  //locator.registerFactory(() => RecipeProvider(locator.call()));
+
 
   //wishlist
   locator.registerSingleton<WishListLocalService>(WishListServiceImpl());
